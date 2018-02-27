@@ -7,13 +7,13 @@
  * @author: Nicholas Giordano
  * @version: 2017.02.27
  */
-public class StackGeneric<T> implements StackInterface<T>
+public class MyStack<T> implements StackInterface<T>
 {
 
 	T[] array;
 	int numItems = 0;
 	
-	public StackGeneric()
+	public MyStack()
 	{
 		array = (T[]) new Object[3];
 	}

@@ -6,7 +6,7 @@
  * @author: Niq Giordano
  * @version: 2017.03.06
  */
-public class Deq<T> extends Queue<T> implements ExtendedQueueInterface<T>
+public class MyDEQ<T> extends MyQueue<T> implements ExtendedQueueInterface<T>
 {
 
 	@Override

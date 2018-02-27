@@ -6,14 +6,14 @@
  * @author: Niq Giordano
  * @version: 2017.03.06
  */
-public class Queue<T> implements QueueInterface<T>
+public class MyQueue<T> implements QueueInterface<T>
 {
 	protected T [] array;
 	protected int front;
 	protected int back;
 	protected int numItems;
 	
-	public Queue()
+	public MyQueue()
 	{
 		array = (T[]) new Object[3];
 		front = 0;
