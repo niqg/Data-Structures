@@ -1,5 +1,8 @@
-
-public class ListArrayBasedPlus extends ListArrayBased
+/*
+ * Purpose: Data Structure and Algorithms
+ * @author: Nicholas Giordano
+ */
+public class MyListArrayBasedPlus extends ListArrayBased
 {
 	
 	public void add(int index , Object item)

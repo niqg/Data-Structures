@@ -1,6 +1,8 @@
-import java.util.ArrayList;
-
-public class ListArrayListBasedPlus extends ListArrayListBased
+/*
+ * Purpose: Data Structure and Algorithms
+ * @author: Nicholas Giordano
+ */
+public class MyListArrayListBasedPlus extends MyListArrayListBased
 {
 	@Override
 	public String toString()

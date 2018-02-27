@@ -1,4 +1,7 @@
-
+/*
+ * Purpose: Data Structure and Algorithms
+ * @author: Nicholas Giordano
+ */
 public class MyListReferenceBased implements ListInterface
 {
 

@@ -1,15 +1,19 @@
+/*
+ * Purpose: Data Structure and Algorithms
+ * @author: Nicholas Giordano
+ */
 import java.util.ArrayList;
 
-public class ListArrayListBased implements ListInterface 
+public class MyListArrayListBased implements ListInterface
 {
 	protected ArrayList<Object> items;
 	
-	public ListArrayListBased()
+	public MyListArrayListBased()
 	{
 		items = new ArrayList <Object>();
 	}
 	
-	public ListArrayListBased(int i)
+	public MyListArrayListBased(int i)
 	{
 		items = new ArrayList <Object>(i);
 	}

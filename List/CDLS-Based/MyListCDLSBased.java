@@ -6,7 +6,7 @@
  * @author: Niq Giordano
  * @version: 2017.02.27
  */
-public class ListCDLSBased implements ListInterface
+public class MyListCDLSBased implements ListInterface
 {
 	private NodeD head;
 	private int numItems = 0;

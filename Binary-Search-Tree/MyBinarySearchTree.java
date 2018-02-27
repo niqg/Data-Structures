@@ -1,4 +1,8 @@
 
+/*
+ * Purpose: Data Structure and Algorithms
+ * @author: Nicholas Giordano
+ */
 public class MyBinarySearchTree<T extends KeyedItem<KT>,KT extends Comparable<? super KT>>extends BinarySearchTree
 {
 	protected T iterativeFindLeftmost(TreeNode<T> tNode)  
